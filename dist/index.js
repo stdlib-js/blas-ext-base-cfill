@@ -1,9 +1,9 @@
-"use strict";var c=function(t,u){return function(){return u||t((u={exports:{}}).exports,u),u.exports}};var l=c(function(I,p){
-var x=require('@stdlib/strided-base-reinterpret-complex64/dist'),E=require('@stdlib/complex-float32-real/dist'),M=require('@stdlib/complex-float32-imag/dist'),q=8;function O(t,u,n,s,w){var e,i,a,f,o,v,r;if(t<=0)return n;if(f=w,i=E(u),a=M(u),e=x(n,0),s===1){if(o=t%q,o>0)for(v=0;v<o;v++)r=f*2,e[r]=i,e[r+1]=a,f+=s;if(t<q)return n;for(v=o;v<t;v+=q)r=f*2,e[r]=i,e[r+1]=a,e[r+2]=i,e[r+3]=a,e[r+4]=i,e[r+5]=a,e[r+6]=i,e[r+7]=a,e[r+8]=i,e[r+9]=a,e[r+10]=i,e[r+11]=a,e[r+12]=i,e[r+13]=a,e[r+14]=i,e[r+15]=a,f+=q;return n}for(v=0;v<t;v++)r=f*2,e[r]=i,e[r+1]=a,f+=s;return n}p.exports=O
-});var j=c(function(J,y){
-var b=require('@stdlib/strided-base-stride2offset/dist'),k=l();function z(t,u,n,s){return k(t,u,n,s,b(t,s))}y.exports=z
-});var _=c(function(K,R){
-var A=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),d=j(),B=l();A(d,"ndarray",B);R.exports=d
-});var C=require("path").join,D=require('@stdlib/utils-try-require/dist'),F=require('@stdlib/assert-is-error/dist'),G=_(),m,g=D(C(__dirname,"./native.js"));F(g)?m=G:m=g;module.exports=m;
+"use strict";var q=function(u,t){return function(){return t||u((t={exports:{}}).exports,t),t.exports}};var c=q(function(H,m){
+var w=require('@stdlib/strided-base-reinterpret-complex64/dist'),x=require('@stdlib/complex-float32-real/dist'),E=require('@stdlib/complex-float32-imag/dist'),o=8;function M(u,t,n,f,g){var e,i,a,r,s,v;if(u<=0)return n;if(i=x(t),a=E(t),e=w(n,0),r=g*2,f*=2,f===2){if(s=u%o,s>0)for(v=0;v<s;v++)e[r]=i,e[r+1]=a,r+=f;if(u<o)return n;for(v=s;v<u;v+=o)e[r]=i,e[r+1]=a,e[r+2]=i,e[r+3]=a,e[r+4]=i,e[r+5]=a,e[r+6]=i,e[r+7]=a,e[r+8]=i,e[r+9]=a,e[r+10]=i,e[r+11]=a,e[r+12]=i,e[r+13]=a,e[r+14]=i,e[r+15]=a,r+=o*2;return n}for(v=0;v<u;v++)e[r]=i,e[r+1]=a,r+=f;return n}m.exports=M
+});var y=q(function(I,p){
+var O=require('@stdlib/strided-base-stride2offset/dist'),b=c();function k(u,t,n,f){return b(u,t,n,f,O(u,f))}p.exports=k
+});var R=q(function(J,d){
+var z=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),j=y(),A=c();z(j,"ndarray",A);d.exports=j
+});var B=require("path").join,C=require('@stdlib/utils-try-require/dist'),D=require('@stdlib/assert-is-error/dist'),F=R(),l,_=C(B(__dirname,"./native.js"));D(_)?l=F:l=_;module.exports=l;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
