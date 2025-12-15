@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-30)
+## Unreleased (2025-12-15)
 
 <section class="features">
 
@@ -35,6 +35,7 @@
 
 <details>
 
+-   [`350c422`](https://github.com/stdlib-js/stdlib/commit/350c422846b1576c0fd6ff4489809376bf71cf76) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/cfill` [(#8970)](https://github.com/stdlib-js/stdlib/pull/8970) _(by Sujal charati, Athan Reines)_
 -   [`f49428b`](https://github.com/stdlib-js/stdlib/commit/f49428bb322ae44614ba5be829cff4b146c1d143) - **docs:** improve doctests for complex number typed arrays _(by Athan Reines)_
 -   [`e8c8651`](https://github.com/stdlib-js/stdlib/commit/e8c8651693bc38d999b5f46cf31ccd370ad6cb8c) - **docs:** improve doctests for complex number instances in `blas/ext/base/cfill` _(by Athan Reines)_
 -   [`347e559`](https://github.com/stdlib-js/stdlib/commit/347e5590cf124d86a7bbe1b7f734bb620bdeb5ba) - **docs:** fix incorrect structure in READMEs of `blas/ext/base/*` [(#5163)](https://github.com/stdlib-js/stdlib/pull/5163) _(by Aayush Khanna, Athan Reines)_
@@ -56,12 +57,13 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
 -   Muhammad Haris
 -   Philipp Burckhardt
+-   Sujal charati
 
 </section>
 
