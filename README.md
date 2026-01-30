@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-cfill@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-cfill/tags). For example,
+
+```javascript
 import cfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-cfill@v0.1.0-deno/mod.js';
 ```
 
@@ -160,7 +165,7 @@ cfill.ndarray( 2, alpha, x, 1, 1 );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@deno/mod.js';
-import cfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-cfill@v0.1.0-deno/mod.js';
+import cfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-cfill@deno/mod.js';
 
 var xbuf = discreteUniform( 20, -100, 100, {
     'dtype': 'float32'
